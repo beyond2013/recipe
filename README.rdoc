@@ -1,10 +1,10 @@
 == README
-
-1: Clone the repository by using git clone command
-2: Modify the username in database.yml to postgresql username
-3: Run rake db:create to create databases
-4: Run rake db:migrate 
-5: Fireup WebRick and point your browser to http://localhost:3000/ingredients
-6: You should be able to upload Ingredient of a Recipe alongwith its name.
+*
+  1: Clone the repository by using git clone command
+  2: Modify the username in database.yml to postgresql username
+  3: Run rake db:create to create databases
+  4: Run rake db:migrate 
+  5: Fireup WebRick and point your browser to http://localhost:3000/ingredients
+  6: You should be able to upload Ingredient of a Recipe alongwith its name.
 
 
