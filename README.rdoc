@@ -1,5 +1,5 @@
-== README
-*
+===How to get up and running
+---
   1: Clone the repository by using git clone command
   2: Modify the username in database.yml to postgresql username
   3: Run rake db:create to create databases
