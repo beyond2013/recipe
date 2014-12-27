@@ -5,15 +5,15 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.1.5p273
 
-* System dependencies
+* System dependencies 
 
 * Configuration
 
-* Database creation
+* Database creation (you need to modify username in database.yml) rake db:create rake db:migrate
 
-* Database initialization
+* Database initialization 
 
 * How to run the test suite
 
@@ -23,6 +23,12 @@ Things you may want to cover:
 
 * ...
 
+Step 1: Clone the repository by using git clone command
+Step 2: Modify the username in database.yml to postgresql username
+Step 3: Run rake db:create to create databases
+Step 4: Run rake db:migrate 
+Step 5: Fireup WebRick and point your browser to http://localhost:3000/ingredients
+Step 6: You should be able to upload Ingredient of a Recipe alongwith its name.
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
